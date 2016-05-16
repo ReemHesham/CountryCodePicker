@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnCountryCodeDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CountryCodeDialogBtn" />
+
+    <Button
+        android:id="@+id/btnCountryCodeList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CountryCodeListBtn" />
+
+    <TextView
+        android:id="@+id/country_code_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/country_code_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/flag_Image"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+
+</LinearLayout>
